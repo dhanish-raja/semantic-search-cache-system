@@ -1,4 +1,4 @@
-```markdown
+
 # Semantic Search Cache System
 
 Lightweight semantic search system built on the **20 Newsgroups dataset** that combines:
@@ -14,7 +14,7 @@ The system avoids redundant computation by recognizing **semantically similar qu
 
 # Repository Structure
 
-
+```
 
 semantic-search-cache-system
 │
@@ -42,7 +42,7 @@ semantic-search-cache-system
 ├── test_pipeline.py
 └── README.md
 
-
+```
 
 ---
 
@@ -553,7 +553,7 @@ This validates that clustering captures **meaningful semantic structure**.
 
 ---
 
-# Docker (Optional)
+# Docker
 
 Build container:
 
@@ -597,5 +597,4 @@ Key design principles used in this system:
 
 This combination enables the system to behave closer to **how humans interpret similar questions**, rather than relying on exact string matching.
 
-```
 ```
