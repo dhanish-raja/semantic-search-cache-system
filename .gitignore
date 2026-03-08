@@ -1,0 +1,12 @@
+.venv
+__pycache__/
+*.pyc
+
+data/20_newsgroups
+data/embeddings.npy
+data/faiss.index
+data/cluster_model.pkl
+
+logs/query_log.json
+
+.env
