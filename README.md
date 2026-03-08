@@ -351,11 +351,9 @@ Cluster Prediction (Gaussian Mixture Model)
 ↓
 Semantic Cache Lookup (within dominant cluster)
 
-**If cache hit**
+If cache hit -> Return cached result
 
-Return cached result
-
-**If cache miss**
+If cache miss
 
 ↓
 FAISS Vector Search
